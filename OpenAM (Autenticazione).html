@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)https://www.ssignon.unina.it/openam/UI/Login -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>OpenAM (Autenticazione)</title>
+
+<link href="./OpenAM (Autenticazione)_files/styles.css" rel="stylesheet" type="text/css">
+
+<!--[if IE 9]> <link href="/openam/css/ie9.css" rel="stylesheet" type="text/css"> <![endif]-->
+<!--[if lte IE 7]> <link href="/openam/css/ie7.css" rel="stylesheet" type="text/css"> <![endif]-->
+<script language="JavaScript" src="./OpenAM (Autenticazione)_files/browserVersion.js.download"></script>
+<script language="JavaScript" src="./OpenAM (Autenticazione)_files/auth.js.download" type="text/javascript"></script>
+
+
+	<script language="JavaScript" type="text/javascript">
+	    writeCSS('/openam');
+		
+		var defaultBtn = 'Submit';
+		var elmCount = 0;
+		
+		/** submit form with default command button */
+		function defaultSubmit() {
+			LoginSubmit(defaultBtn);
+		}
+
+		/**
+		 * submit form with given button value
+		 *
+		 * @param value of button
+		 */
+		function LoginSubmit(value) {
+			aggSubmit();
+			var hiddenFrm = document.forms['Login'];
+
+			if (hiddenFrm != null) {
+				hiddenFrm.elements['IDButton'].value = value;
+				if (this.submitted) {
+					alert("The request is currently being processed");
+				}
+				else {
+					this.submitted = true;
+					hiddenFrm.submit();
+				}
+			}
+		}
+		
+	</script><link href="./OpenAM (Autenticazione)_files/css_ns6up.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript"><!--// Empty script so IE5.0 Windows will draw table and button borders--></script>
+
+
+	</head>
+	<body class="LogBdy" onload="placeCursorOnFirstElm();">
+
+		<table border="0" cellpadding="0" cellspacing="0" align="center" title="">
+			<tbody><tr>
+				<td width="50%"><img src="./OpenAM (Autenticazione)_files/dot.gif" width="1" height="1" alt=""></td>
+				<td><img src="./OpenAM (Autenticazione)_files/dot.gif" width="728" height="1" alt=""></td>
+				<td width="50%"><img src="./OpenAM (Autenticazione)_files/dot.gif" width="1" height="1" alt=""></td>
+			</tr>
+			<tr class="LogTopBnd" style="background-color: lightblue; background-repeat: repeat-x; background-position: left top;">
+				<td>&nbsp;</td>
+				<td><img src="./OpenAM (Autenticazione)_files/dot.gif" width="1" height="100" alt=""></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr style="background-color: lightblue;">
+
+				<td class="LogMidBnd" style="background-repeat: repeat-x; background-position: left top;">&nbsp;</td>
+				<td class="LogCntTd" style="background-image: url(/openam/images/dot.gif);
+        				background-repeat:no-repeat; background-color: #47B; background-position:left top;" height="435" align="center" valign="middle">
+					<h1 style="padding-top:50px;"><img src="./OpenAM (Autenticazione)_files/logo2013.png" alt=""></h1>
+					<table border="0" background="./OpenAM (Autenticazione)_files/dot.gif" cellpadding="0" cellspacing="0" width="100%" title="">
+						<tbody><tr>
+							<td width="200"><img src="./OpenAM (Autenticazione)_files/dot.gif" width="75" height="150" alt=""></td>
+							
+							<td width="415" valign="top"><img src="./OpenAM (Autenticazione)_files/dot.gif" width="75" height="1" alt=""> 
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tbody><tr>
+										<td colspan="2">
+											<img src="./OpenAM (Autenticazione)_files/dot.gif" width="1" height="75" alt=""></td>
+									</tr>
+
+									<!-- display authentication scheme -->
+									<!-- Header display -->
+									<tr>
+										<td nowrap="nowrap"></td>
+									</tr>
+									<!-- End of Header display -->
+
+									<!--
+									
+										<h1>
+											Il sistema utilizza il sistema di autenticazione LDAP (scelta multipla)
+										</h1>
+									
+-->
+									
+											
+											
+												<script language="javascript" type="text/javascript">
+		                                            <!--
+		                                            elmCount++;
+		                                            -->
+                                        		</script>
+                                        		
+                                        		
+												<!-- textBox -->
+
+												<!-- password -->
+
+
+												<!-- end of choice -->
+												<!-- end of tiledCallbacks -->
+											
+												<script language="javascript" type="text/javascript">
+		                                            <!--
+		                                            elmCount++;
+		                                            -->
+                                        		</script>
+                                        		
+                                        		
+												
+													<!-- text box display -->
+
+													<tr>
+														<form name="frm1" action="https://www.ssignon.unina.it/openam/UI/blank" onsubmit="defaultSubmit(); return false;" method="post"></form>
+															<td nowrap="nowrap"><div class="logLbl">
+																	
+
+																	<span class="LblLev2Txt"> 
+																	<label for="IDToken1">  Utente: 
+
+																	</label></span>
+																</div>
+																</td><!-- td nowrap -->
+
+																<td><div class="logInp">
+
+																	<input class="TxtFld" type="text" name="IDToken1" id="IDToken1" value="">
+																</div></td>
+														
+													</tr>
+													<!-- end of textBox -->
+												<!-- textBox -->
+
+												<!-- password -->
+
+
+												<!-- end of choice -->
+												<!-- end of tiledCallbacks -->
+											
+												<script language="javascript" type="text/javascript">
+		                                            <!--
+		                                            elmCount++;
+		                                            -->
+                                        		</script>
+                                        		
+                                        		
+												<!-- textBox -->
+
+												
+													<!-- password display -->
+													<tr>
+														<form name="frm2" action="https://www.ssignon.unina.it/openam/UI/blank" onsubmit="defaultSubmit(); return false;" method="post"></form>
+															<td nowrap="nowrap"><div class="logLbl">
+																	
+
+																	<span class="LblLev2Txt"> <label for="IDToken2">  Password: 
+																	</label></span>
+																</div></td><!-- td nowrap -->
+																
+																
+															<td><div class="logInp">
+
+																	<input class="TxtFld" type="password" name="IDToken2" id="IDToken2" value="">
+																</div></td>
+														
+													</tr>
+													<!-- end of password -->
+												<!-- password -->
+
+
+												<!-- end of choice -->
+												<!-- end of tiledCallbacks -->
+											
+
+
+											
+
+
+											
+
+
+											
+
+											
+												<!-- Submit button -->
+
+
+												<!-- end of hasButton -->
+
+												
+													<tr>
+														<td><img src="./OpenAM (Autenticazione)_files/dot.gif" width="1" height="15" alt=""></td>
+															 <script language="javascript">
+																markupButton(
+																	'Accedi',
+																		   "javascript:LoginSubmit('Accedi')");
+															</script><td><div class="logBtn"><input name="Login.Submit" type="button" class="Btn1Def" value=" Accedi " onclick="javascript:LoginSubmit(&#39;Accedi&#39;)" onmouseover="javascript: if (this.disabled==0) this.className=&#39;Btn1DefHov&#39;" onmouseout="javascript: if (this.disabled==0) this.className=&#39;Btn1Def&#39;" onblur="javascript: if (this.disabled==0) this.className=&#39;Btn1Def&#39;" onfocus="javascript: if (this.disabled==0) this.className=&#39;Btn1DefHov&#39;"></div></td>
+											        </tr>
+													
+												<!-- end of hasNoButton -->
+
+												<!-- end of ContentButtonLogin -->
+											
+
+
+											<tr>
+												<td>&nbsp;</td>
+											</tr>
+
+											<tr>
+												<td><img src="./OpenAM (Autenticazione)_files/dot.gif" width="1" height="33" alt=""><a href="https://www.idm.unina.it/UninaPswMngt/" target="new"><strong><font color="FFFFFF" align="center">Attiva/Resetta &nbsp;Password</font></strong></a></td><td></td><td><a href="http://www.unina.it/aiuto/area-riservata" target="new"><strong><font color="FFFFFF" align="center">Help</font></strong></a></td>
+											</tr>
+								</tbody></table>
+								
+								</td>
+							<td width="45"><img src="./OpenAM (Autenticazione)_files/dot.gif" width="45" height="150" alt=""></td>
+						</tr>
+					</tbody></table>
+				</td>
+
+
+				<td class="LogMidBnd" style="background-repeat: repeat-x; background-position: left top;">&nbsp;</td>
+			</tr>
+
+		</tbody></table>
+<form name="Login" action="https://www.ssignon.unina.it/openam/UI/Login" method="post">
+
+		<script language="javascript" type="text/javascript">
+                                        <!--
+                                        if (elmCount != null) {
+        for (var i = 0; i < elmCount; i++) {
+            document.write(
+                "<input name=\"IDToken" + i + "\" type=\"hidden\">");
+        }
+        document.write("<input name=\"IDButton"  + "\" type=\"hidden\">");
+    }
+                                        -->
+                                    </script><input name="IDToken0" type="hidden"><input name="IDToken1" type="hidden"><input name="IDToken2" type="hidden"><input name="IDButton" type="hidden">
+		<input type="hidden" name="goto" value="">
+		<input type="hidden" name="gotoOnFail" value="">
+		<input type="hidden" name="SunQueryParamsString" value="">
+		<input type="hidden" name="encoded" value="false">
+		
+	<input type="hidden" name="gx_charset" value="UTF-8"></form>
+
+
+
+	
+
+
+</body></html>
